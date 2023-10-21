@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Image to Text Converter - OCR Scanner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Junaid">
+
+    <!-- Google Web Font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic' rel='stylesheet' type='text/css'>
+    <!-- favicon -->
+    <link rel="shortcut icon"  href="assets/img/icon.png"/>
+    <!-- Bootstrap 3 Plan styles -->
+    <link id="plan-theme" href="assets/css/bootstrap.plan.amethyst.min.css" rel="stylesheet">
+    <!-- Bootstrap Select -->
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <!-- Plan UI -->
+    <link id="plan-theme-extra" href="assets/css/plan.amethyst.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Docs Custom styles -->
+    <style>
+        body {
+          padding: 10px 0 0 0;
+        }
+        footer {
+          background-color: white;
+          border-top: 1px solid #ddd;
+          padding: 30px;
+          margin-top: 50px;
+        }
+        .row > [class*="col-"] {
+          margin-bottom: 30px;
+        }
+        .navbar-container {
+          position: relative;
+          min-height: 100px;
+        }
+        .navbar-container .navbar.navbar-fixed-top,
+        .navbar-container .navbar.navbar-fixed-bottom {
+          position: absolute;
+          top: 50px;
+          z-index: 0;
+        }
+        .navbar-container .navbar.navbar-fixed-top .container,
+        .navbar-container .navbar.navbar-fixed-bottom .container {
+          max-width: 90%;
+        }
+        .btn-group {
+          margin-bottom: 10px
+        }
+        .form-inline select,
+        .form-inline input[type="text"],
+        .form-inline input[type="password"] {
+          width: 180px;
+        }
+        .input-group {
+          margin-bottom: 10px;
+        }
+        .pagination { margin-top :0;}
+        .navbar-inverse {margin: 110px 0}
+		.imgsize{
+		 height: 400px;
+		 width: 200px;
+		 }
+		 .logo-size{
+		 height:80px;
+		 width:80px;
+		 }
+         .imgcon{
+            height:80px;
+         width:80px;
+         padding-left: 20px;
+         }
+         .offsale{
+            height: 600px;
+            width: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+         }
+         .saleoffer{
+            height: 400px;
+            width: 1100px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1>Image to Text Converter - OCR Scanner</h1>
+            <h4>User Guide</h4>
+            <!-- APP ICON -->
+            <img src="assets/img/icon.png">
+            <br><br>
+        </div>
+        
+        <br><br><br>
+        <div class="row">
+        <div class="col-sm-6 col-lg-12">
+                <div class="panel-group" id="accordion-panel">
+                  
+                    <!-- CUSTOMIZATION -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-panel" href="#customization">
+                                    <i class="fa fa-cog"></i>&nbsp;&nbsp; Customization</a>
+                            </h4>
+                        </div>
+                        <div id="customization" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 • <strong>Import Project:</strong> <br><br>
+
+                               &nbsp;&nbsp;  • <strong>Step 1:</strong> Start Android Studio and close any open Android Studio projects.:<br><br>
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/step 1.png"></div>
+                            </div>
+                            <br><br>
+
+                           &nbsp;&nbsp;  • <strong>Step 2:</strong> From the Android Studio menu select File > New > Import Project.:<br><br>
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/step 2.png"></div>
+                            </div>
+                            <br><br>
+
+                                
+
+                                • <strong>Package Name:</strong> There might be many situations when you want to change package name of the App in Android Studio. You might have download source code from codecanyon and wants to rename the package name according to your App details. Here in this tutorial I am going to discuss step by step how to rename/change package name in Android Studio:<br><br>
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/packagename.jpg"></div>
+                            </div>
+                            <br><br>
+
+                            • <strong>App Icon:</strong> Create a New Icon for this And Replace icon in drawable folder.<br><br>
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/app icon.jpg"></div>
+                            </div>
+                            <br><br>
+
+        
+
+                             • <strong>App Name:</strong> Replace With Your App Name,Google Play Store Account Name,Facebook Ads Id And Admob Adunit id.<br><br>
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/string.jpg"></div>
+                            </div>
+                            <br><br>  
+								
+								
+															
+								
+								 • <strong>go to firebase console:</strong> goto firebase website and then click on the goto console.<br><br>
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/go to console.png"></div>
+                            </div>
+                            <br><br>   
+								
+								 • <strong>add project:</strong> Click on the Add project for new project.<br><br>
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/click on add project.png"></div>
+                            </div>
+                            <br><br>  
+								
+								
+								 • <strong>Register firebase app:</strong> Register app for firebse project then download json file.<br><br>
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/register app.png"></div>
+                            </div>
+                            <br><br>   
+								
+								
+								
+                    
+                    </div></div></div><!-- end panel -->
+
+                    
+
+                    <!-- OUR APP FUNCTION -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-panel" href="#parse">
+                                    <i class="fa fa-database"></i>&nbsp;&nbsp; Our App Function</a>
+                            </h4>
+                        </div>
+                        <div id="parse" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                    <center>                         
+                              <img src="assets/img/1.png" class="imgsize">
+							   <img src="assets/img/2.png" class="imgsize">
+							    <img src="assets/img/3.png" class="imgsize"><br><br>
+								 <img src="assets/img/4.png" class="imgsize">
+                                 <img src="assets/img/5.png" class="imgsize">
+										 <img src="assets/img/6.png" class="imgsize"><br><br>
+                            </center>
+                            </div>
+						</div></div><!-- end panel -->
+
+               
+                  
+                    
+
+                    <!-- FAQs -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-panel" href="#faqs">
+                                    <i class="fa fa-question-circle"></i>&nbsp;&nbsp;  FAQs</a>
+                            </h4>
+                        </div>
+                        <div id="faqs" class="panel-collapse collapse">
+                            <div class="panel-body">
+
+                            <ul>
+                              
+                                <br>
+
+                                <li>
+                                    <h4>Can I host Parse Server on my own server?</h4>
+                                    There is no requiremnt of server.
+                                </li>
+                                <br>
+
+                            
+
+                                <li>
+                                    <h4>Should I use the latest version of Android Studio to edit this Application?</h4>
+                                    Yes, I usually update all my apps to the latest version of their IDE.
+                                </li>
+                                <br>
+
+
+                            </ul>
+
+
+                    </div></div></div><!-- end panel -->
+
+                     
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-panel" href="#Contact">
+                                    <i class="fa fa-comments"></i>&nbsp;&nbsp; Contact Us!</a>
+                            </h4>
+                        </div>
+                        <div id="Contact" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <b>Gmail Id:</b>&nbsp;&nbsp;  kingraider125@gmail.com<br>
+                                
+                               
+                               
+
+
+                            <br><br>
+
+
+                    </div></div></div><!-- end panel -->
+
+                    
+                
+
+
+                </div><!-- end accordion group -->
+            </div>
+        </div><!-- end row -->
+</div>
+
+
+
+    
+    <!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- Main Scripts-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Plan UI elements -->
+    <script src="assets/js/plan.ui.js"></script>
+    <!-- Bootstrap Select -->
+    <script src="assets/js/bootstrap-select.min.js"></script>
+
+    <!-- Demo -->
+    <script src="assets/js/application.js"></script>
+
+</body>
+</html>
